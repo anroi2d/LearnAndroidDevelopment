@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Android Development</string>
+    <string name="Red">Red</string>
+    <string name="White">White</string>
+    <string name="Yellow">Yellow</string>
+    <string name="Blue">Blue</string>
+    <string name="Green">Green</string>
+    <string name="select">You choose only color:</string>
+    <string name="static_content">Static Content</string>
+    <string name="clear">Clear</string>
+    <string name="enter_url_http">Enter url http://...</string>
+    <string name="go">Go</string>
+</resources>

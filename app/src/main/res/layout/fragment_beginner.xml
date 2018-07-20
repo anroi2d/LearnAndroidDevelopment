@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical">
+        <fragment
+            android:id="@+id/fragment_text"
+            android:name="com.myapp.anit.learnandroiddevelopment.fragment.Fragment_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <fragment
+            android:id="@+id/fragment_button"
+            android:name="com.myapp.anit.learnandroiddevelopment.fragment.Fragment_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <fragment
+            android:id="@+id/fragment_menu"
+            android:name="com.myapp.anit.learnandroiddevelopment.fragment.Fragment_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <fragment
+            android:name="com.myapp.anit.learnandroiddevelopment.fragment.Fragment_widgets"
+            android:id="@+id/fragment_widget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <fragment
+            android:name="com.myapp.anit.learnandroiddevelopment.fragment.Fragment_layouts"
+            android:id="@+id/fragment_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <fragment
+            android:name="com.myapp.anit.learnandroiddevelopment.fragment.Fragment_container"
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <fragment
+            android:name="com.myapp.anit.learnandroiddevelopment.fragment.Fragment_google"
+            android:id="@+id/fragment_google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <fragment
+            android:name="com.myapp.anit.learnandroiddevelopment.fragment.Fragment_legacy"
+            android:id="@+id/fragment_legacy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
